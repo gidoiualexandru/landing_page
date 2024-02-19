@@ -1,0 +1,177 @@
+* { margin: 0; padding: 0; }
+
+body{
+    background-color: white;
+    overflow: auto;
+    margin: 0;
+}
+
+nav, footer{
+    background-color: #1f2937;
+}
+
+footer{
+    padding: 1.5%;
+    text-align: center;
+    color: white;
+    overflow: hidden;
+}
+
+.test3{
+    display: flex;
+    background-color: #1f2937;
+    padding-top: 50px;
+}
+
+.test{
+    flex: 1;
+    align-self: center;
+    padding-left: 300px;
+}
+
+.test2{
+    flex:2;
+}
+
+.headline{
+    color: white;
+    font-size: 48px;
+}
+
+.subline{
+    color:#E5E7EB;
+    font-size:18px;
+}
+
+.sign-up{
+    background-color: #3882f6;
+    color: white;
+    padding:10px 30px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    text-align: center;
+}
+
+.image{
+    float:right;
+    padding-right: 500px;
+    margin-bottom: 50px;
+    margin-left:30px;
+    width:  300px;
+    height: 200px;
+}
+
+.navbar {
+    width: 100%;
+    overflow: auto;
+}
+
+.logo {
+    color: white;
+    float: left;
+    padding-left: 100px;
+    font-size: 25px;
+    justify-self: center;
+}
+
+.link{
+    float: right;
+    padding: 10px;
+    margin-top: 10px;
+    color: white;
+    opacity: 70%;
+}
+
+.link2{
+    float: right;
+    padding: 10px;
+    margin-top: 10px;
+    color: white;
+    opacity: 70%;
+    margin-right: 80px;
+}
+
+.quote{
+    background-color: #E5e7EB;
+    padding: 100px;
+}
+
+.quote-text{
+    font-size: 36px;
+    color: #1f2937;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align:left;
+    width:50%;
+    margin-left: 25%;
+}
+
+.quote-author{
+    color: black;
+    font-size: 25px;
+    text-align:right;
+    margin-right: 20%;
+    font-weight: 80%;
+}
+
+.action{
+    background-color: #3882f6;
+    width: 50%;
+    margin-left: 20%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding: 50px;
+    display: flex;
+}
+
+.header{
+    color: white;
+    margin-left: 10%;
+    font-size: 24px;
+}
+
+.subtext{
+    color: white;
+    opacity: 80%;
+    margin-left: 10%;
+    font-size: 18px;
+}
+
+.button{
+    margin-left: auto;
+    background-color: #3882f6;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    border: 4px solid white;
+    border-radius: 10px;
+    padding: 8px 32px;
+}
+
+.section-text{
+    text-align: center;
+    color: black;
+    font-size: 36px;
+    margin-top: 70px;
+    margin-bottom: 20px;
+}
+
+.images{
+    text-align: center;
+}
+
+.images img{
+    display:inline-block;
+    vertical-align: middle;
+    width: 150px;
+    height:150px;
+    margin:30px;
+    border: 4px solid #3882f6;
+    border-radius: 5%;    
+}
+
+.images figure{
+    display: inline-block;
+    font-size: 16px;
+    margin-bottom: 100px;
+}
